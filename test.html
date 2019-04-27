@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Michael Hueter’s Website</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/modern-normalize@0.5.0/modern-normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Mukta"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Michael Hueter</h1>
+        <p>Full-Stack Software Engineer</p>
+        <div class="mountain-one"></div>
+        <div class="mountain-two no-mobile"></div>
+        <div class="mountain-three"></div>
+        <div class="mountain-four"></div>
+        <div class="mountain-five no-mobile"></div>
+        <div class="mountain-six no-mobile no-tablet"></div>
+        <div class="mountain-seven no-mobile no-tablet"></div>
+        <div class="mountain-eight no-mobile no-tablet"></div>
+        <div class="mountain-nine no-mobile no-tablet"></div>
+        <div class="mountain-ten no-mobile no-tablet"></div>
+      </header>
+      <div id="main-content">
+        <section id="latest-post" data-aos="fade-in">
+          <div class="section-heading"><h2>Latest From the Blog</h2></div>
+          <div id="latest-post-row" class="row">
+            <i
+              id="latest-post-loading"
+              class="fa fa-spinner fa-pulse fa-3x fa-fw"
+            ></i>
+            <div class="col-1 blog-image">
+              <img
+                id="latest-post-featured-image"
+                src="images/placeholder.png"
+              />
+            </div>
+            <div
+              id="latest-post-content"
+              class="col-4 blog-text invisible"
+            ></div>
+          </div>
+        </section>
+        <section id="about">
+          <div class="img-holder">
+            <img
+              id="profile-pic"
+              src="images/michael_2019_600.jpg"
+              alt="Michael's Face"
+              data-aos="fade-in"
+            />
+          </div>
+          <div class="row">
+            <div class="col-1 section-heading">
+              <h2 class="special-section-heading" data-aos="fade-in">About</h2>
+            </div>
+            <div class="col-5 about-content" data-aos="fade-right">
+              <h3>I'm a Software Engineer</h3>
+              <p>
+                Currently based in San Francisco, I do full-stack web
+                development (backend + frontend). I've been coding
+                professionally since 2015. I've been a tech lead at an
+                <a
+                  title="Emsi"
+                  href="https://economicmodeling.com"
+                  target="_blank"
+                  >economic data company</a
+                >
+                and a lead instructor at a
+                <a
+                  title="Rithm School"
+                  href="https://rithmschool.com"
+                  target="_blank"
+                  >coding school</a
+                >. My strongest languages are JavaScript and Python, and my
+                preferred stack is Node.js on the backend and React.js on the
+                frontend.
+              </p>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-in">
+            <div class="col-1 tech-col">
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                target="_blank"
+                title="JavaScript"
+                ><i class="fab fa-js-square tech-logo"></i>
+              </a>
+              <a href="https://python.org" target="_blank" title="Python"
+                ><i class="fab fa-python tech-logo"></i
+              ></a>
+              <a href="https://nodejs.org" target="_blank" title="Nodejs"
+                ><i class="fab fa-node tech-logo"></i
+              ></a>
+              <a href="https://reactjs.org" target="_blank" title="React"
+                ><i class="fab fa-react tech-logo"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <div class="section-heading" data-aos="fade-in">
+            <h2 class="special-section-heading">Contact</h2>
+          </div>
+          <div class="row about-content" data-aos="fade-left">
+            <p>
+              If you're interested in seeing my work, check out my GitHub
+              profile (first icon).
+            </p>
+          </div>
+          <div class="row about-content" data-aos="fade-left">
+            <p>
+              If you're interested in connecting professionally, reach out using
+              one of the other three icons.
+            </p>
+          </div>
+          <div class="row icon-row" data-aos="fade-left">
+            <a title="GitHub" href="https://github.com/hueter" target="_blank"
+              ><i class="fab fa-github-square"></i
+            ></a>
+            <a
+              title="LinkedIn"
+              href="https://www.linkedin.com/in/michael-hueter/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a title="Angel List" href="https://angel.co/hueter" target="_blank"
+              ><i class="fab fa-angellist"></i
+            ></a>
+            <a
+              title="Email Me"
+              href="mailto:michael@michaelhueter.com"
+              target="_blank"
+              ><i class="far fa-envelope"></i
+            ></a>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <small>Copyright © 2019 Michael Hueter. All rights reserved. </small>
+      </footer>
+    </div>
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"
+    integrity="sha256-VBLiveTKyUZMEzJd6z2mhfxIqz3ZATCuVMawPZGzIfA="
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.23/moment-timezone-with-data.min.js"
+    integrity="sha256-15jnh2lee6Li94j6XCbw8PRzNZe29O/W9i97yXVyRmA="
+    crossorigin="anonymous"
+  ></script>
+  <script src="polyfill.min.js"></script>
+  <script src="main.js"></script>
+</html>
